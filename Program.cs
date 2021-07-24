@@ -34,6 +34,7 @@ namespace SyntacticSugar
         }
 
         // Convert this method to an expression member
+        // REMINDER: If a constructor can be implemented as a single statement, you can use an expression body definition
         public string PreyList() => string.Join(",", this.Prey);
 
         // Convert this method to an expression member
